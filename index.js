@@ -8,7 +8,7 @@
 	, freegeoip = require('node-freegeoip');
 
 // Configuration.
-var appUrl = process.env.APP_URL || 'https://plex-discord-webhook.herokuapp.com';
+var appUrl = process.env.APP_URL;
 var webhookKey = process.env.DISCORD_WEBHOOK_KEY;
 
 var redisClient = redis.createClient(process.env.REDISCLOUD_URL, { return_buffers: true });
