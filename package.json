@@ -2,8 +2,8 @@
   "name": "plex-notifications",
   "version": "0.0.1",
   "engines": {
-    "node": "12.15.x",
-    "npm": "6.13.x"
+    "node": "16.16.x",
+    "npm": "8.11.x"
   },
   "private": true,
   "scripts": {
